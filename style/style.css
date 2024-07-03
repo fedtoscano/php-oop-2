@@ -1,0 +1,25 @@
+.products{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+li{
+    border: 1px solid black;
+    width: 200px;
+    padding: 2em;
+}
+
+li .image-container{
+    width: 100%;
+}
+
+.image-container img{
+    width: 100%;
+}
