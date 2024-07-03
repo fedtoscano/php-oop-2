@@ -7,10 +7,10 @@ class Gadget extends Product{
     private $size;
 
     //! GETTER
-    protected function getMaterial(){
+    public function getMaterial(){
         return $this->material;
     }
-    protected function getSize(){
+    public function getSize(){
         return $this->size;
     }
                                                         

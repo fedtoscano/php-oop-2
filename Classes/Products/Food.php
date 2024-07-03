@@ -5,16 +5,16 @@ class Food extends Product{
     private $ingredients;
 
     
-    protected function getWeight(){
+    public function getWeight(){
         return $this->weight;
     }
-    protected function getIngredients(){
+    public function getIngredients(){
         return $this->ingredients;
     }
-    protected function setWeight($weight){
+    public function setWeight($weight){
         $this->weight = $weight;
     }
-    protected function setIngredients($ingredients){
+    public function setIngredients($ingredients){
         $this->ingredients = $ingredients;
     }
 

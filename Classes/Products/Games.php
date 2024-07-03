@@ -6,10 +6,10 @@ class Game extends Product{
     private $size;
 
     //! GETTER
-    protected function getDescription(){
+    public function getDescription(){
         return $this->description;
     }
-    protected function getSize(){
+    public function getSize(){
         return $this->size;
     }
                                                         

@@ -6,16 +6,16 @@ class Product{
     private $category;
 
     //! GETTER
-    protected function getTitle(){
+    public function getTitle(){
         return $this->title;
     }
-    protected function getPrice(){
+    public function getPrice(){
         return $this->price;
     }  
-    protected function getCategory(){
+    public function getCategory(){
         return $this->category;
     }
-    protected function getImgUrl(){
+    public function getImgUrl(){
         return $this->imgUrl;
     }
 
