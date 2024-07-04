@@ -18,6 +18,7 @@ require_once __DIR__.'/db/db.php';
     <main>
         <h2>I nostri prodotti</h2>
         <section class="products">
+            
             <ul>
                 <?php foreach ($itemList as $key => $item) { ?>
                     <?php if($item instanceof Food) { ?>

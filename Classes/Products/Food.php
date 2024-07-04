@@ -1,16 +1,19 @@
 <?php
 require_once __DIR__."/../Product.php";
+
 class Food extends Product{
     private $weight;
     private $ingredients;
 
-    
+    //! GETTER
     public function getWeight(){
         return $this->weight;
     }
     public function getIngredients(){
         return $this->ingredients;
     }
+
+    //!SETTER
     public function setWeight($weight){
         $this->weight = $weight;
     }
